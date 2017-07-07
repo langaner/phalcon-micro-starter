@@ -1,5 +1,10 @@
 ## Phalcon micro starter
 
+[![Latest Stable Version](https://poser.pugx.org/langaner/phalcon-micro-starter/v/stable)](https://packagist.org/packages/langaner/phalcon-micro-starter)
+[![Total Downloads](https://poser.pugx.org/langaner/phalcon-micro-starter/downloads)](https://packagist.org/packages/langaner/phalcon-micro-starter)
+[![Latest Unstable Version](https://poser.pugx.org/langaner/phalcon-micro-starter/v/unstable)](https://packagist.org/packages/langaner/phalcon-micro-starter)
+[![License](https://poser.pugx.org/langaner/phalcon-micro-starter/license)](https://packagist.org/packages/langaner/phalcon-micro-starter)
+
 A Skeleton project what include jwt token authentication.
 
 ## How to install
