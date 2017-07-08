@@ -32,3 +32,15 @@ routes - all routes. You can separate it to files or write all in routes.php
 ## Routes
 
 http://servarname.server/auth/login - login route. This route provide user auth return his token. All routes protected with AuthMiddleware. Auth settings located in auth config file.
+
+## Bindings
+
+To use repositories, services, presenters you must register binding in AppProvider to it.
+
+Examples:
+
+Repository - $this->bindRepository('userRepository', UserRepository::class, [new UserModel]);
+
+Service - $this->bindService('userService', UserService::class, [$this->getDi()->get('userRepository')]);
+
+Presenter - $this->bindRepository('userPresenter', UserPresenter::class, [new UserModel]);
